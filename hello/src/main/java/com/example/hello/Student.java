@@ -1,5 +1,5 @@
 package com.example.hello;
 
 public class Student {
-    private String name;gogo
+    private String name;gogopppp
 }
