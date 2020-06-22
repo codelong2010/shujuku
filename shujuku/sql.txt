@@ -1,0 +1,12 @@
+#创建ceshi数据库
+create database ceshi;
+use ceshi;
+#创建student数据表
+create table student(
+	id int not null unique primary key,
+	name varchar(20) not null
+);
+#插入三条数据
+insert into student values(1,'小明');
+insert into student values(2,'小东');
+insert into student values(3,'小红');
